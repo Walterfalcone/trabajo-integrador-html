@@ -1,0 +1,17 @@
+.caja {
+color: brown;
+font-size: 50px;
+font-family: Cambria;
+background-color: gold;
+}
+
+/*
+#caja {
+background-color: blueviolet;
+height: 150px;
+}
+*/
+.caja1 {
+background-color: aqua;
+height: 150px;
+}

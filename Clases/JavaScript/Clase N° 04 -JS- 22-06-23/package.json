@@ -1,0 +1,6 @@
+{
+  "description": "",
+  "dependencies": {
+    "pokemon": "^2.3.5"
+  }
+}

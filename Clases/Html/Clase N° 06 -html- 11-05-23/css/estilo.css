@@ -1,0 +1,83 @@
+/*
+#caja {
+    background-color: yellow;
+    height: 300px;
+    width: 35%;
+    position: relative;
+}
+#caja1 {
+    background-color: rgb(9, 255, 0);
+    height: 150px;
+    width: 15%;
+    position: absolute; /* tipos de posicion "relative (relativa) - absolute (absoluta) - static (estática) - fixed (fija) - sticky (pegadiza)
+    top: 15%;
+    left: 10%;
+    right: 10%;
+}
+*/
+/*.caja1 {
+    width: 50%;
+    height: 200px;
+    background-color: blueviolet;
+
+}
+.caja2 {
+    width: 50%;
+    height: 200px;
+    background-color: rgb(0, 255, 42);
+}
+#cajaprincipal {
+    display: flex;
+    margin: 20px  
+    /* con a sentencia display: "flex" agupamos en una fila cuantas columnas establezcamos en el 
+    contenedor ppal., tener presente que el width de ser en "%" y cuanto mas bloques menos porcentaje 
+}
+*/
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    min-height: 75px;
+    background-color: rgb(255, 80, 211);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;  
+}
+
+nav a{
+    font-weight: 400;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color:white;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+
+}
+    
+
+

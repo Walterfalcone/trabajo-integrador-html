@@ -1,0 +1,6 @@
+body{
+    color: #fff;
+    background: linear-gradient(45deg,red,blue,rgb(81, 135, 81),black);
+    background-size: 400% 400%;
+   
+}

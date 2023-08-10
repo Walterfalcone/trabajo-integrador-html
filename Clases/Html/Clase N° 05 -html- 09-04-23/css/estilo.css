@@ -1,0 +1,55 @@
+
+
+/* con esto se trabaja solo diseño tradicional, importante 
+para colocar en linea dos cajas contenedoras debes utiliza el
+atributo de pocision "display: flex;" luego con los elementos 
+margin, border, padding se van acomodando.
+.caja {
+    background: rgba(115, 255, 0, 0.897);
+    height: 400px;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.caja1 {
+    background: rgba(4, 0, 255, 0.897);
+    height: 400px;
+    width: 50%;
+    padding: 10px;
+
+}
+*/
+/* a continuacion vemos flex-box que se utiliza para el diseño 
+responsive*/
+.contenedor {
+    display: flex;
+    height: 450px;
+    background: red;
+    padding: 25px;
+}
+.caja {
+    background: rgba(115, 255, 0, 0.897);
+    height: 400px;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.caja1 {
+    background: rgba(4, 0, 255, 0.897);
+    height: 400px;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a {
+    font-size: 30px;
+    font-family: lucila sans;
+    
+}
+a:hover {
+    color:aliceblue;
+    font-size: 45px;
+
+}

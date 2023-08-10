@@ -1,0 +1,55 @@
+
+.caja {
+    background: rgba(115, 255, 0, 0.897);
+    width: 50%;
+    height: 300px;
+    margin-left: 35%;
+    padding: 25px 35px 15px 15px;
+    border: 25px outset red; /*tipos de bordes "solid - dotted - double - dashed - groove - ridge - inset - outset"*/
+    display: 5%;
+}
+.Titulo {
+    color: rgb(51, 19, 19);
+    font-size: 50px;
+    font-family: Verdana;
+    text-align: center;
+}
+.caja1 {
+    color: rgb(54, 42, 165);
+    font-size: 20px;
+    font-family: Cambria;
+    text-align: center;
+    height: 300px;
+    margin: 30px;
+    background-image: url(../img\ 04-05-23/biciruta1.png);
+    background-repeat: no-repeat;
+}
+/* ejemplo de estilo a un form (formulario) para ordenarlo en bloque
+
+form { 
+    width:450px
+}
+label {
+    display: block
+*/
+/* trabajo practico de formulario
+.titulo, h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana;
+}
+.form, label {
+    font-family: Verdana;
+}
+.form, input {
+    background-color: aquamarine;
+}
+.btn-primary {
+    background-color: principal !important;
+    border-radius: 20px !important;
+    border-color: #e21983 !important;
+}
+.btn-primary:focus {
+    outline-color: #e21983 !important; 
+}
+*/
